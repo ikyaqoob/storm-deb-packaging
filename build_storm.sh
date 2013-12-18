@@ -1,14 +1,14 @@
 #!/bin/bash
 set -x
 name=storm
-version=0.8.1
+version=0.9.0.1
 description="Storm is a distributed realtime computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing realtime computation. Storm is simple, can be used with any programming language, is used by many companies, and is a lot of fun to use!"
 url="http://storm-project.net"
 arch="all"
 section="misc"
 package_version=""
 src_package="storm-${version}.zip"
-download_url="https://github.com/downloads/nathanmarz/storm/${src_package}"
+download_url="https://dl.dropboxusercontent.com/s/dj86w8ojecgsam7/${src_package}"
 origdir="$(pwd)"
 storm_root_dir=/usr/lib/storm
 
